@@ -1295,6 +1295,24 @@ section,
   font-weight: 300;
 }
 
+.pricing .pricing-item h6 {
+  font-size: 1rem;
+  font-family: var(--default-font);
+  font-weight: 500;
+}
+
+.pricing .pricing-item h6 sup {
+  font-size: 15px;
+  top: -5px;
+  left: -1px;
+}
+
+.pricing .pricing-item h6 span {
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  font-size: 16px;
+  font-weight: 300;
+}
+
 .pricing .pricing-item ul {
   padding: 20px 0;
   list-style: none;
