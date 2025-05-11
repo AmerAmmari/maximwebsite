@@ -70,6 +70,10 @@
     });
   }
 
+  if (window.location.hash) {
+    window.location.replace(window.location.pathname); // or set a specific hash: + '#home'
+  }
+
   /**
    * Scroll top button
    */
